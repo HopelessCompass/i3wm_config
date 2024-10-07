@@ -196,3 +196,4 @@ exec --no-startup-id setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_
 
 #lock screen i3lock package required
 bindsym Control+Mod4+l exec "i3lock"
+bindsym Control+Mod4+x exec "systemctl suspend"
